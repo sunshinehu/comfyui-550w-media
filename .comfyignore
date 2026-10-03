@@ -1,0 +1,7 @@
+tests/
+test_*.py
+__pycache__/
+*.pyc
+.venv/
+.env*
+.github/

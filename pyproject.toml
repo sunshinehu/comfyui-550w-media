@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "node-550w-media"
+version = "3.1.5"
+description = "Erase image watermarks and text, remove video subtitles and watermarks, and resolve shared video links."
+requires-python = ">=3.11"
+dependencies = ["requests==2.32.5", "requests-toolbelt==1.0.0", "keyring==25.6.0"]
+license = {file = "LICENSE"}
+classifiers = ["Operating System :: OS Independent"]
+
+[project.urls]
+Repository = "https://github.com/sunshinehu/comfyui-550w-media"
+Documentation = "https://eraser.550wai.com/agent/"
+
+[tool.comfy]
+PublisherId = "fiftyw-ai"
+DisplayName = "550W Watermark & Text Eraser"
+Icon = "https://raw.githubusercontent.com/sunshinehu/comfyui-550w-media/main/icon.png"
+
+[tool.setuptools]
+packages = ["comfyui_550w_media"]
+package-dir = {comfyui_550w_media = "."}
