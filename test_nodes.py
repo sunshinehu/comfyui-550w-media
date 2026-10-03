@@ -61,7 +61,8 @@ class NodeTest(unittest.TestCase):
             def numpy(self): return np.zeros((10,10,3))
         paths = []
         def execute(self,action,**kwargs):
-            path = Path(kwargs["file_path"]);paths.append(path)
+            path = Path(kwargs["file_path"])
+            paths.append(path)
             self_test.assertTrue(path.is_file())
             self_test.assertEqual(action,"image")
             return {"code":200,"data":{"taskId":"task-123"}}
