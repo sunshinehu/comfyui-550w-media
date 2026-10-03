@@ -73,5 +73,6 @@ Privacy: https://eraser.550wai.com/privacy/ . Support: support@550wai.com .
 The separately built Chinese package uses Chinese labels and introduction,
 https://qzm.550wai.cn/api-keys for API Key management and
 https://qzm.550wai.cn/purchase?tab=speed for credits. It is a self-distribution
-package, not a duplicate international Registry listing. Region is not changed
+package with independent node ID node-550w-media-cn; the international node ID
+is node-550w-media. Registry publication is verified separately. Region is not changed
 by choosing an interface language. Both packages use the same processing service.

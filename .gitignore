@@ -5,3 +5,4 @@ __pycache__/
 *.log
 credentials*.json
 token*.json
+node.zip
